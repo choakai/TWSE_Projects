@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TWSE_Projects", "TWSE_Projects\TWSE_Projects.csproj", "{81052C80-1FA0-47B0-80A9-952FF8C60447}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server_Socket", "Server_Socket\Server_Socket.csproj", "{9EF32E24-BF94-40FB-A52D-9ABC8FD353DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client_Socket", "Client_Socket\Client_Socket.csproj", "{D9C891F7-10C7-4DE0-AE42-FDC4C67D60CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{81052C80-1FA0-47B0-80A9-952FF8C60447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{81052C80-1FA0-47B0-80A9-952FF8C60447}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{81052C80-1FA0-47B0-80A9-952FF8C60447}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{81052C80-1FA0-47B0-80A9-952FF8C60447}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EF32E24-BF94-40FB-A52D-9ABC8FD353DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EF32E24-BF94-40FB-A52D-9ABC8FD353DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EF32E24-BF94-40FB-A52D-9ABC8FD353DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EF32E24-BF94-40FB-A52D-9ABC8FD353DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9C891F7-10C7-4DE0-AE42-FDC4C67D60CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9C891F7-10C7-4DE0-AE42-FDC4C67D60CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9C891F7-10C7-4DE0-AE42-FDC4C67D60CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9C891F7-10C7-4DE0-AE42-FDC4C67D60CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
