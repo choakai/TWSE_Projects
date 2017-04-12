@@ -35,6 +35,10 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.105.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\kkhuang1\Desktop\C#\sqlite-netFx45-binary-x64-2012-1.0.105.0\System.Data.SQLite.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -45,6 +49,10 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\Schedule.cs" />
+    <Compile Include="Utilities\Security.cs" />
+    <Compile Include="Utilities\Setting.cs" />
+    <Compile Include="Dao\SqlServerHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
